@@ -1,7 +1,7 @@
 
 def square_array(array)
+  new_array =
   i = 0
-  new_array = array.new
   while i < array.length do
     new_array << array[i] ** 2
     i += 1
